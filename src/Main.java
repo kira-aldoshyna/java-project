@@ -11,5 +11,7 @@ public class Main {
         }
         System.out.println(messages.getProperty("app.title"));
         System.out.println(messages.getProperty("app.greeting"));
+
+        EvenOdd.demo();
     }
 }
