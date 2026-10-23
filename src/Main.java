@@ -14,5 +14,6 @@ public class Main {
 
         EvenOdd.demo();
         NumberSum.demo();
+        RandomGenerator.demo();
     }
 }
