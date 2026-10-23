@@ -13,5 +13,6 @@ public class Main {
         System.out.println(messages.getProperty("app.greeting"));
 
         EvenOdd.demo();
+        NumberSum.demo();
     }
 }
