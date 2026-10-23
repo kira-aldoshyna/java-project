@@ -9,7 +9,7 @@ public class Main {
         try (Reader reader = new InputStreamReader(new FileInputStream("resources/messages.properties"), StandardCharsets.UTF_8)) {
             messages.load(reader);
         }
-        System.out.println("--- СТАРТ ПРОГРАММЫ ---");
+        System.out.println("=== СТАРТ ПРИЛОЖЕНИЯ ===");
         System.out.println(messages.getProperty("app.title"));
         System.out.println(messages.getProperty("app.greeting"));
 
